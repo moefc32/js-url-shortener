@@ -28,5 +28,5 @@ SOFTWARE.
 
 ## Cara Pemasangan
  1. Clone keseluruhan repository ini
- 2. Tambahkan URL yang ingin dijadikan short link pada script.js (misal https://github.com menjadi github)
+ 2. Tambahkan URL yang ingin dijadikan short link pada script.js (misal github menjadi https://github.com)
  3. Short link siap diakses (misal, https://example.com?github akan dialihkan ke https://github.com)
