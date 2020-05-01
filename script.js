@@ -1,9 +1,17 @@
+'use strict';
+
 // List of short URLs
 
-const urls = [
-  {short: "google", full: "https://google.com"},
-  {short: "github", full: "https://github.com"},
-];
+const urls = [{
+  short : "google",
+  full : "https://google.com"
+}, {
+  short : "instagram",
+  full : "https://instagram.com"
+}, {
+  short : "github",
+  full : "https://github.com"
+}];
 
 // Custom error message
 
