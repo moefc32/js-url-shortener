@@ -15,12 +15,12 @@ const urls = [{
 
 // Custom error message
 
-var errMsg = "Error: short link tidak ditemukan!";
+let errMsg = "Error: short link tidak ditemukan!";
 
 // Get web app path and short link
 
-var base = window.location.search;
-var arr = base.split('?');
+let base = window.location.search;
+let arr = base.split('?');
 console.log(arr[1]);
 
 // Check if short URL is on the list and do redirect
@@ -32,6 +32,6 @@ function isExist(url) {
 if (urls.find(isExist) === undefined) {
   document.getElementById('message').innerHTML = errMsg;
 } else {
-  var a = urls.find(isExist);
+  let a = urls.find(isExist);
   window.location.href = a.full;
 }
