@@ -17,13 +17,13 @@ const urls = [{
 
 let errMsg = "Error: shortlink tidak ditemukan!";
 
-// Get web app path and short link
+// Get web app path and shortlink
 
 let base = window.location.search;
 let arr = base.split('?');
 console.log(arr[1]);
 
-// Check if short URL is on the list and do redirect
+// Check if shortlink is on the list and do redirect
 
 function isExist(url) {
   return url.short === arr[1];
