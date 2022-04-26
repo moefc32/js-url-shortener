@@ -15,7 +15,7 @@ const urls = [{
 
 // Custom error message
 
-let errMsg = "Error: short link tidak ditemukan!";
+let errMsg = "Error: shortlink tidak ditemukan!";
 
 // Get web app path and short link
 
