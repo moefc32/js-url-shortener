@@ -1,4 +1,4 @@
-# JS-URL-Shortener
+# JS URL Shortener
 Aplikasi URL shortener sederhana dari JavaScript
 
 ## Cara Pemasangan
